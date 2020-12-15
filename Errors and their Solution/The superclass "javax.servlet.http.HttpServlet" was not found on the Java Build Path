@@ -1,0 +1,3 @@
+Error : The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path.
+Reason : We may get this maven error while creating new maven project, because javax.servlet-api dependency is not available in pom.xml.
+Solution : Add javax.servlet-api dependency in pom.xml.
